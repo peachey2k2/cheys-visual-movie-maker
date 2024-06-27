@@ -5,12 +5,18 @@ A video editor built on top of Godot. You can use all the fancy nodes within the
 > [!IMPORTANT]
 > This plugin isn't done yet. Do not use it.
 
-## Why, though?
+## But why, though?
 Mainly two reasons:
 1) I thought it would be funny.
 2) I figured most video editors are stupidly hard to get used to. Their UIs are a joke, you can't find what you're looking for and even things like resizing images/videos is a chore, and I figured especially Godot's `Control` nodes would help a lot with all that.
+3) I'm a narcissist.
 
 If you're curious about all that, check out the wiki (not made yet lol)
+
+# Usage
+Clone the repository and put the `/bin` folder into your project. It should automatically hot-reload, but restart the editor just in case.
+
+If you want to compile it yourself or contribute, check out the [development repo](https://github.com/peachey2k2/cheys-visual-movie-maker-dev). It contains the source code, along with the [GDExtension bindings](https://github.com/godotengine/godot-cpp) required to compile it.
 
 
 # Support
